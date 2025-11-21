@@ -1,0 +1,83 @@
+10 Ejercicios de POO basados en lo aprendido
+
+Estos ejercicios refuerzan todo lo que has practicado hasta ahora (funciones, excepciones, estructuras, validaciones).
+
+🧠 Nivel 1 – Fundamentos de clases
+
+1. Clase Persona:
+
+Atributos: nombre,edad
+
+Método:mostrar_info()
+
+Si la edad es menor de 0, lanza un ValueError.
+
+2. Clase CuentaBancaria:
+
+Atributo privado: __saldo
+
+Métodos: depositar(), retirar(),mostrar_saldo()
+
+Usa try/except si el retiro es mayor que el saldo.
+
+3. Clase Producto:
+
+Atributos: nombre, precio,stock
+
+Métodos: actualizar_stock(),cambiar_precio()
+
+Usa abs() para manejar reducciones de stock y try/except para validar precios.
+
+⚙️ Nivel 2 – Herencia y métodos especiales
+
+4. Clase Empleado y subclase Gerente:
+
+Empleado tiene nombre, salario.
+
+Gerente hereda de Empleado y agrega departamento.
+
+Sobrescribe el método mostrar_info() para incluir el departamento.
+
+5. Clase Vehiculo:
+
+Subclases: Coche, Moto
+
+Cada subclase tiene un método mostrar_tipo().
+
+Usa super() para heredar atributos del padre.
+
+6. Clase Rectángulo:
+
+Atributos: ancho,alto
+
+Métodos: calcular_area(),calcular_perimetro()
+
+Usa validación para no aceptar valores negativos.
+
+🧩 Nivel 3 – Uso combinado de POO + estructuras
+
+7. Clase Inventario:
+
+Usa un diccionario para guardar productos y cantidades.
+
+Métodos: agregar_producto(), mostrar_inventario(), buscar_producto().
+
+8. Clase NotasEstudiante:
+
+Usa un diccionario donde clave = nombre, valor = lista de notas.
+
+Métodos: agregar_nota(), promedio_estudiante(), mejor_estudiante().
+
+🧱 Nivel 4 – POO + Excepciones avanzadas
+
+9. Clase Calculadora:
+
+Métodos: sumar(), restar(), dividir(), multiplicar().
+
+Usa try/except para evitar división entre cero.
+
+10. Clase ArchivoTexto:
+
+Métodos: guardar_texto(), leer_texto().
+
+Usa manejo de archivos con with open() y captura errores de lectura/escritura.

@@ -1,0 +1,74 @@
+🔹 Ejercicio 1 – Encapsulamiento básico
+
+Crea una clase CuentaBancariacon atributos privados: __titular, __saldo.
+Implementar métodos:
+
+depositar(monto)
+
+retirar(monto)
+
+mostrar_saldo()
+
+Valida que no se puedan hacer depósitos o retiros negativos.
+
+🔹 Ejercicio 2 – Control con getters y setters
+
+Crea una clase Empleadocon atributos privados __nombre y __salario.
+Usa métodos getter y setter para modificar el salario, validando que no sea menor a un salario mínimo.
+
+🔹 Ejercicio 3 – Abstracción con clases base
+
+Crea una clase abstracta Transporte con un método abstracto moverse().
+Implementa las clases hijas:
+
+Auto
+
+Bicicleta
+Cada una debe sobrescribir el método y mostrar un mensaje diferente.
+
+🔹 Ejercicio 4 – Abstracción con cálculos
+
+Crea una clase abstracta FiguraGeometricacon un método abstracto calcular_area().
+Implementa las clases:
+
+Rectangulo
+
+Triangulo
+
+Circulo
+Cada clase debe tener sus propios atributos y calcular su área correctamente.
+
+🔹 Ejercicio 5 – Encapsulamiento aplicado
+
+Crea una clase Productocon:
+
+Atributos privados __nombre, __precio, __stock.
+
+Métodos para aumentar o reducir stock (validando que no quede negativo).
+
+Propiedades ( @property) para mostrar el nombre y precio.
+
+🔹 Ejercicio 6 – Sistema bancario (intermedio)
+
+Defina una clase base Cuenta con métodos abstractos depositar()y retirar().
+Crea dos clases hijas:
+
+CuentaAhorros
+
+CuentaCorriente
+Ambas deben implementar las funciones, pero con condiciones distintas (por ejemplo, límites de retiro).
+
+🔹 Ejercicio 7 – Abstracción en animales
+
+Crea una clase abstracta Animalcon el método hacer_sonido().
+Crea tres clases hijas ( Perro, Gato, Vaca) que implementan el método.
+Usa polimorfismo para recorrer una lista de animales y ejecutar sus sonidos.
+
+🔹 Ejercicio 8 – Sistema educativo (avanzado)
+
+Diseña un sistema con:
+
+Clase abstracta Personacon el método mostrar_info().
+
+Clases hijas Estudiantey Profesor, cada una con sus atributos y comportamiento.
+Aplicación de encapsulamiento para proteger la información personal.

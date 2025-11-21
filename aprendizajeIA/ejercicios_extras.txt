@@ -1,0 +1,26 @@
+🚀 Ejercicios prácticos para ti
+
+1 Manejo de división entre cero
+Crea una función que pida dos números y muestre la división, manejando el error si el divisor es cero.
+
+2 Entrada de usuario no válida
+Pide un número al usuario con input() y usa try/except para manejar el error si escribe letras en vez de números.
+
+3 Uso en tu clase Cuenta
+Modifica el método retirar() para que use try/except y lance un error personalizado si el monto es mayor al saldo.
+
+4 Conversión de precios en Producto
+En el método cambiar_precio(), maneja el error si el usuario intenta poner un valor que no sea numérico (str en vez de float).
+
+5 Validación en Estudiante
+Haz que asignar_nota() lance un error si la nota es mayor a 5 o menor a 0, y que se capture con try/except para mostrar un mensaje claro.
+
+-----Ejercicios de con try/except par fortalecer todo lo aprendido-----
+📝 Ejercicios Semana 3 – Colecciones y datos en Python
+
+
+
+
+
+
+

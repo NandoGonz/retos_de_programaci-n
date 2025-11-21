@@ -1,0 +1,198 @@
+10 Ejercicios de práctica
+✅ 1. Clase Alumno + validaciones
+
+Crea una clase Alumno:
+
+Atributos privados: __nombre,__edad
+
+Si edad < 0 →ValueError
+
+mostrar_info()Retorna datos del alumno
+
+Usa @propertypara obtener/actualizar edad
+
+📌 Práctica:
+
+Encapsulamiento + propiedad + excepciones
+
+✅ 2. Control de inventario con Productos
+
+Clase Producto:
+
+__nombre, __precio,__stock
+
+Método vender(cantidad)→ valida stock
+
+Método comprar(cantidad)
+
+Propiedad solo lectura para precio
+
+📌 Práctica:
+
+Encapsulamiento + métodos + propiedades
+
+✅ 3. Sistema de empleados
+
+Clase abstracta Empleado:
+
+Método abstracto calcular_pago()
+
+Clases hijas:
+
+EmpleadoFijo
+
+EmpleadoPorHoras
+
+Haz una lista de empleados y calcula la nómina total.
+
+📌 Práctica:
+
+Abstracción + Herencia + Polimorfismo + listas
+
+✅ 4. Figuras geométricas con área
+
+Clase abstracta Figura:
+
+calcular_area()
+
+Clases:
+
+Cuadrado
+
+Círculo
+
+Triángulo
+
+Método común:
+
+abrir área formateada
+
+📌 Práctica:
+
+Abstracción + polimorfismo
+
+✅ 5. Biblioteca
+
+Crear:
+
+Libro
+
+__titulo, __autor,__stock
+
+Biblioteca
+
+Lista de libros
+
+Métodos:
+
+agregar_libro()
+
+(_libro()
+
+mento_libro()
+
+buscar_libro()
+
+📌 Práctica:
+
+Encapsulamiento + listas + validaciones
+
+✅ 6. Sistema de Archivos
+
+Clase ArchivoTexto:
+
+guardar(texto)
+
+leer()
+
+append(texto)
+
+Maneja -:
+
+Error de archivo no encontrado
+
+Error de permisos
+
+OSError
+
+📌 Práctica:
+
+con open() + excepciones
+
+✅ 7. Registro de usuarios
+
+Clase Usuario:
+
+__usuario,__password
+
+Clase SistemaUsuarios:
+
+Lista de usuarios
+
+registrar_usuario()
+
+iniciar_sesión()
+
+Usuarios se guardan en archivo plano
+
+📌 Práctica:
+
+Encapsulamiento + listas + archivos + lógica
+
+✅ 8. Gestión de notas
+
+Clase Alumno:
+
+lista de notas
+
+agregar_nota()
+
+_promedio()
+
+Propiedad para mostrar promedio
+
+Otra clase Cursoque tenga una lista de alumnos.
+
+📌 Práctica:
+
+propiedades + listas + encapsulamiento
+
+✅ 9. Carrito de compras
+
+Clases:
+
+Producto: nombre, precio
+
+Carrito: lista de productos
+
+agregar_producto()
+
+total()
+
+Crea 3 tipos de productos:
+
+Normal
+
+Con descuento
+
+especial
+
+Aplicación polimorfismo → cada uno calcula su precio final diferente.
+
+📌 Práctica:
+
+Polimorfismo + herencia + listas
+
+✅ 10. Sistema de Logs
+
+Clase Logger:
+
+registrar(mensaje)→ guardar con fecha en archivo plano
+
+ver_logs()→ muestra contenido
+
+filtrar(busqueda) → devuelve líneas coincidentes
+
+📌 Práctica:
+
+Manejo de archivos + procesamiento de texto + excepción
