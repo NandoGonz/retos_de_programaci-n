@@ -87,9 +87,9 @@ Métodos:
 
 agregar_libro()
 
-(_libro()
+prestar_libro()
 
-mento_libro()
+devolver_libro()
 
 buscar_libro()
 
@@ -151,7 +151,7 @@ _promedio()
 
 Propiedad para mostrar promedio
 
-Otra clase Cursoque tenga una lista de alumnos.
+Otra clase Curso que tenga una lista de alumnos.
 
 📌 Práctica:
 
