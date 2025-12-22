@@ -1,6 +1,7 @@
 """Para establecer una conexión MySQL debemos importar mysqlconnector"""
 
 import mysql.connector
+import pandas as pd  # Importamos pandas para leer la información de mejor manera
 
 # Establecemos la caonexión de forma plana
 # Enviamos los puertos como parametros
@@ -73,11 +74,20 @@ def eliminar_cliente(id_cliente):
     print("Cliente eliminado de forma exitosa")
 
 
-leer_datos()
+def leer_pandas():
+    query = "SELECT * FROM clientes;"
+    # Creamso una variablr df(dataframe) y usamos la libreria y el metodo read_sql
+    # Le pasamso como parametros la query y la conexión
+    df = pd.read_sql(query, conn)
+    print(df)
+
+
+# leer_datos()
 # crear_cliente("Alonso", "fernandoalo@Yahoo.com", 58)
 # login("admin", "admin123")
 # actualizar_cliente(55, "Fernado Alonso")
 # eliminar_cliente(56)
+leer_pandas()
 
 # Debemos cerrar siempre nuestra conexión
 conn.close()
