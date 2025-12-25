@@ -73,7 +73,7 @@ VALUES(%s, %s, %s, %s, %s, %s, %s);"""
     try:
         with conn.cursor() as cur:
             cur.execute(query, params)
-        conn.commit()
+        conn.commit()  # guarda los cambios realizados a las tablas
         print("[OK] Inserción segura realizada")
     except Error as e:
         conn.rollback()  # evitamos que un dato qeude vagando
