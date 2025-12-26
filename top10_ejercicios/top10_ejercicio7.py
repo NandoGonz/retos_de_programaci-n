@@ -58,7 +58,6 @@ class SistemaUsuarios:
         """
         self.archivo = archivo
         self.usuarios = []
-        self.cargar_usuarios()
 
     def cargar_usuarios(self):
         """

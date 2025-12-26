@@ -1,0 +1,109 @@
+✅ EJERCICIO 1 — Leer archivo línea por línea
+
+📄 Archivo: frases.txt
+
+Contenido:
+
+Aprender Python es genial
+Practicar todos los días
+La constancia gana
+
+🎯 Objetivo:
+
+Leer el archivo
+
+Mostrar cada línea sin saltos de línea
+
+🧠 Pistas:
+
+readlines()
+
+.strip()
+
+✅ EJERCICIO 2 — Contar líneas del archivo
+
+📄 Archivo: tareas.txt
+
+Contenido:
+
+Estudiar Python
+Hacer ejercicios
+Leer documentación
+
+🎯 Objetivo:
+
+Contar las líneas que tiene el archivo
+
+Mostrar el total
+
+📌 Resultado esperado:
+
+El archivo tiene 3 líneas
+
+✅ EJERCICIO 3 — Buscar una palabra en el archivo
+
+📄 Archivo: notas.txt
+
+Contenido:
+
+Hoy estudié Python
+Python es muy útil
+Mañana practicaré más
+
+🎯 Objetivo:
+
+Pedir una palabra al usuario
+
+Mostrar las líneas que la contienen
+
+📌 Ejemplo:
+
+Ingrese palabra: Python
+→ Hoy estudié Python
+→ Python es muy útil
+
+✅ EJERCICIO 4 — Guardar coincidencias en otro archivo
+
+📄 Archivo origen: mensajes.txt
+
+Error en el sistema
+Proceso exitoso
+Error de conexión
+Todo correcto
+
+
+📄 Archivo destino: errores.txt
+
+🎯 Objetivo:
+
+Leermensajes.txt
+
+Guardar solo las líneas que contienen "Error" enerrores.txt
+
+📌 Pistas:
+
+if "Error" in linea
+
+modo"w"
+
+✅ EJERCICIO 5 — Limpiar texto y guardarlo
+
+📄 Archivo: datos.txt
+
+   Python   
+   Archivos   
+   Texto plano   
+
+🎯 Objetivo:
+
+Leer el archivo
+
+Eliminar espacios extra
+
+Guardar el texto limpio endatos_limpios.txt
+
+📌 Resultado esperado:
+
+Python
+Archivos
+Texto plano

@@ -45,6 +45,6 @@ with open("lista_tareas.txt", "a", encoding="UTF-8") as archivo1:
 
 # Lectura de datos usando with
 with open("lista_tareas.txt", encoding="UTf-8") as archivo1:
-    # extraemos la info líena por líne usando el método readline()
+    # extraemos la info líena por líne usando el método readline() retorna una lista
     lineas = archivo1.readlines()
     print(lineas)
