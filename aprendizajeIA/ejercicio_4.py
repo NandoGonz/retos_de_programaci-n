@@ -1,3 +1,5 @@
+import tkinter as tk
+
 """Banco (POO + Listas de Objetos)
 
 Clase CuentaBancaria con atributos titular (str) y saldo (float).
@@ -9,7 +11,7 @@ Crea 3 cuentas y guárdalas en una lista.
 Haz depósitos y retiros recorriendo la lista con un bucle"""
 
 
-class CuentaBancaria:
+"""class CuentaBancaria:
     def __init__(self, titular: str, saldo: float):
         self.titular = titular
         self.saldo = saldo
@@ -43,4 +45,11 @@ for cuenta in cuentas:
     cuenta.retirar(1000)
     cuenta.retirar(500)
     cuenta.retirar(1000000)
-    print(cuenta.mostrar_saldo())
+    print(cuenta.mostrar_saldo())"""
+
+ventana = tk.Tk()
+ventana.title("Cajero el amigo")
+
+
+
+ventana.mainloop()
